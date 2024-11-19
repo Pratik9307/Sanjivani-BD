@@ -43,7 +43,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: "*",
-    origin: "https://sanjivani-web.netlify.app",
+    
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
